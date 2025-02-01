@@ -1,6 +1,6 @@
-# sanya-kapoor README
+# deepseek-vscode README
 
-This is the README for your extension "sanya-kapoor". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "deepseek-vscode". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
