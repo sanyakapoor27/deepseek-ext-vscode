@@ -7,7 +7,7 @@ import ollama from 'ollama';
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 
-	const disposable = vscode.commands.registerCommand('sanya-kapoor.start', () =>{
+	const disposable = vscode.commands.registerCommand('deepseek-vscode.start', () =>{
 		const panel = vscode.window.createWebviewPanel(
 			'deepChat',
 			'Deep Seek Chat',

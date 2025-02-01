@@ -1,6 +1,6 @@
 {
-  "name": "sanya-kapoor",
-  "displayName": "deepseek-help-me",
+  "name": "deepseek-vscode",
+  "displayName": "deepseek-ext",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "sanya-kapoor.start",
+        "command": "deepseek-vscode.start",
         "title": "Run DeepSeek"
       }
     ]

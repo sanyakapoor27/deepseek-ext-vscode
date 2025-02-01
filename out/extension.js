@@ -45,7 +45,7 @@ const ollama_1 = __importDefault(require("ollama"));
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 function activate(context) {
-    const disposable = vscode.commands.registerCommand('sanya-kapoor.start', () => {
+    const disposable = vscode.commands.registerCommand('deepseek-vscode.start', () => {
         const panel = vscode.window.createWebviewPanel('deepChat', 'Deep Seek Chat', vscode.ViewColumn.One, { enableScripts: true });
         panel.webview.html = getWebviewContent();
         console.log("Webview HTML:", getWebviewContent());
